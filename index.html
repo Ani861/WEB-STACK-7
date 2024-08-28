@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Book Catalogue</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Book Catalogue</h1>
+
+    <!-- Controls for filtering and sorting -->
+    <div id="controls">
+      <select id="genreFilter">
+        <option value="">Filter by Genre</option>
+        <option value="Fiction">Fiction</option>
+        <option value="Classic">Classic</option>
+        <option value="Dystopian">Dystopian</option>
+        <option value="Romance">Romance</option>
+        <option value="Fantasy">Fantasy</option>
+        <option value="Historical Fiction">Historical Fiction</option>
+        <option value="Adventure">Adventure</option>
+      </select>
+
+      <select id="sortOptions">
+        <option value="">Sort by</option>
+        <option value="title">Title</option>
+        <option value="author">Author</option>
+        <option value="year">Year</option>
+        <option value="rating">Rating</option>
+      </select>
+    </div>
+
+    <!-- Book list container -->
+    <div id="bookList"></div>
+
+    <!-- Pagination Controls -->
+    <div id="pagination">
+      <button id="prevPage">Previous</button>
+      <span id="currentPage">1</span>
+      <button id="nextPage">Next</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
