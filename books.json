@@ -79,4 +79,53 @@
     "year": 1851,
     "rating": 4.0
   }
+   {
+    "id": 11,
+    "title": "Little Women",
+    "author": "Louisa May Alcott",
+    "genre": "Classic",
+    "year": 1868,
+    "rating": 4.6
+  },
+  {
+    "id": 12,
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "genre": "Dystopian",
+    "year": 1932,
+    "rating": 4.7
+  },
+  {
+    "id": 13,
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "year": 1954,
+    "rating": 4.9
+  },
+  {
+    "id": 14,
+    "title": "The Catch-22",
+    "author": "Joseph Heller",
+    "genre": "Satire",
+    "year": 1961,
+    "rating": 4.3
+  },
+  {
+    "id": 15,
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "genre": "Romance",
+    "year": 1847,
+    "rating": 4.7
+  },
+  {
+    "id": 16,
+    "title": "The Chronicles of Narnia",
+    "author": "C.S. Lewis",
+    "genre": "Fantasy",
+    "year": 1950,
+    "rating": 4.8
+  }
+]
 ]
